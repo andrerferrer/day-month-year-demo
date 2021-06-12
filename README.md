@@ -6,11 +6,11 @@ This is a demo to show-case how to implement .
 
 ## What needs to be done?
 
-### 1. Add the gem
-```ruby
-# Gemfile
-gem ''
-```
+For this demo, we'll have the column `visited_on` on restaurant reviews to make a custom input for dates.
+
+To do that, we did, [add the DB migration](https://github.com/andrerferrer/custom-simple-form-input-demo/commit/ff622c186ba13bfa3ac476eab9c567a887e254a3) and [add visited on to the form](https://github.com/andrerferrer/custom-simple-form-input-demo/commit/c4b10fa9a088452c690cc785fa52f1dd2dce4776)
+
+### 1. Prep the set up
 
 Remember to `bundle install`
 
