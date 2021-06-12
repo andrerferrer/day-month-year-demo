@@ -10,13 +10,15 @@ For this demo, we'll have the column `visited_on` on restaurant reviews to make 
 
 To do that, we did, [add the DB migration](https://github.com/andrerferrer/custom-simple-form-input-demo/commit/ff622c186ba13bfa3ac476eab9c567a887e254a3) and [add visited on to the form](https://github.com/andrerferrer/custom-simple-form-input-demo/commit/c4b10fa9a088452c690cc785fa52f1dd2dce4776)
 
-### 1. Add the order options in the input
+### 1. Add the order options in the input (and that's all)
 
 ```erb
 # app/views/restaurants/show.html.erb
 <%= f.input :visited_on, 
                 order: %i[day month year] %>
 ```
+
+You can find other options in the [simple form gem documentation](https://github.com/heartcombo/simple_form).
 
 ### If you want to check it locally
 ```sh
