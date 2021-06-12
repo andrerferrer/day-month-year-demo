@@ -19,7 +19,8 @@
 
   <%= simple_form_for([ @restaurant, @review ]) do |f| %>
     <%= f.input :content, as: :text %>
-    <%= f.input :visited_on %>
+    <%= f.input :visited_on, 
+                order: %i[day month year] %>
     <%= f.button :submit %>
   <% end %>
 
